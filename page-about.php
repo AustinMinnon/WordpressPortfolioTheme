@@ -1,11 +1,11 @@
 <?php
 /* *
 * Template Name: About Us
-*/
+*/ ?>
 
-get_header(); ?>
+<?php get_header(); ?>
 
-        <div class="callout">
+<div class="callout">
             <div class="row column text-center">
                 <h1>Programming Background</h1>
             </div>
@@ -21,4 +21,4 @@ get_header(); ?>
 
 <?php
 
-get_footer();
+get_footer(); ?>

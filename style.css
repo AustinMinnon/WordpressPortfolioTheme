@@ -916,6 +916,9 @@ a {
 	color: #ffffff;
 }
 
+.footer-icons{
+	margin-left: 35%;
+}
 
 a:visited {
 	color: #534c4c;
@@ -983,4 +986,5 @@ footer {
     background: #2d2d2d;
     padding: 1.0em;
     color: white;
+
 }
