@@ -59,6 +59,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 }
 
+.callout {
+	border: none;
+	background-color: #fffbf9;
+}
+
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -977,7 +982,6 @@ footer li {
 }
 
 #feature img {
-    margin-bottom: 2em;
 	width: 100%;
 }
 
