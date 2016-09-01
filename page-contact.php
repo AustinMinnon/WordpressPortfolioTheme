@@ -8,12 +8,12 @@
 
 <div class="callout">
     <div class="row column text-center">
-        <h1>Send me a message to my email</h1>
+        <h1>Direct Message</h1>
     </div>
 </div>
 
 <div class="row" id="content">
-    <div class="medium-12 columns">
+    <div class="medium-12 columns contactForm">
         <?php while ( have_posts() ) : the_post(); ?>
 
             <?php get_template_part( 'template-parts/content', 'page' ); ?>

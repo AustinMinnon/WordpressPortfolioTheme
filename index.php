@@ -16,7 +16,7 @@ get_header(); ?>
 
 	<div class="callout">
 			<div class="row column text-center">
-				<h1 class="pageHeader">Featured Projects Section</h1>
+				<h1 class="pageHeader">Featured Projects</h1>
 			</div>
 		</div>
 

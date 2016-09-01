@@ -46,6 +46,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
+
+@media only screen and (max-width: 640px) {
+	.sticky {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1024){
+	.sticky {
+		display: block;
+	}
+}
+
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -752,9 +765,6 @@ a:active {
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
-.sticky {
-	display: block;
-}
 
 .hentry {
 	margin: 0 0 1.5em;
@@ -980,6 +990,10 @@ footer li {
     margin-top: 1.2em;
     padding: 2em;
     color: #fff;
+}
+
+.contactForm{
+	margin: 20% 0;
 }
 
 footer {
