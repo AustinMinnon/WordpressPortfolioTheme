@@ -32,9 +32,8 @@
 
 			<div class="callout">
 				<ul class="menu simple">
-					<li><a href="#">Author: <?php the_author(); ?></a></li>
-					<li><a href="#">Comments: <?php comments_number(); ?></a></li>
 					<li><a href="#">Posted on: <?php echo get_the_date('F j, Y'); ?> </a></li>
+					<li><a href="#">Comments: <?php comments_number(); ?></a></li>
 				</ul>
 			</div>
 		</div>

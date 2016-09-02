@@ -61,7 +61,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 .callout {
 	border: none;
-	background-color: #fffbf9;
+	background-color: #fdfdfd;
+	text
 }
 
 html {
@@ -1005,4 +1006,12 @@ footer {
     padding: 1.0em;
     color: white;
 
+}
+
+.entry-title {
+	text-align: center;
+}
+
+.menu-simple {
+	text-align: center;
 }
