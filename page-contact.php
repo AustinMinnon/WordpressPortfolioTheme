@@ -6,11 +6,6 @@
 
 <?php get_header(); ?>
 
-<div class="callout">
-    <div class="row column text-center">
-        <h1>Direct Message</h1>
-    </div>
-</div>
 
 <div class="row" id="content">
     <div class="medium-12 columns contactForm">

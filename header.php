@@ -29,28 +29,30 @@
 	          <div class="large-12 columns">
 	              <div class="top-bar">
 	                  <div class="top-bar-left">
-	                      <ul class="menu">
+	                      <ul class="menu menu-links">
 	                          <li class="menu-text"><a href="
 								  <?php echo esc_url( home_url() ); ?>">
-								  <?php echo get_bloginfo( 'name'); ?></a></li>
-							  <li><?php wp_nav_menu( array(
-								  'theme_location' => 'primary' ) ); ?>
+								  <?php echo get_bloginfo( 'name'); ?></a>
 							  </li>
 	                      </ul>
 	                  </div>
-	                  <div class="top-bar-right">
-						  <form method="get" id="searchform" action="<?php bloginfo('url'); ?>/">
-							  <ul class="menu">
-								  <li><input type="search" placeholder="search" value="<?php the_search_query(); ?>" name="s" id="s" /></li>
-								  <li><button type="button" class="button" id="searchsubmit" value="Search" />Search</button></li>
-							  </ul>
-						  </form>
-	                  </div>
+    				 <div class="top-bar-right">
+				  		<ul class="menu menu-links">
+					  		<li class="navigation-links"><?php wp_nav_menu( array(
+						  'theme_location' => 'primary' ) ); ?>
+					  		</li>
+			  			</ul>
+                  	</div>
 	              </div>
 	          </div>
 	        </div>
 		</header>
-
+		<!-- <form method="get" id="searchform" action="<?php bloginfo('url'); ?>/">
+			<ul class="menu">
+				<li><input class="small"type="search" placeholder="search" value="<?php the_search_query(); ?>" name="s" id="s" /></li>
+				<li><button type="button" class="button small" id="searchsubmit" value="Search" />Search</button></li>
+			</ul>
+		</form> -->
 	    <section id="feature">
 	        <div class="row">
 	            <div class="large-12 columns">

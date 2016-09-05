@@ -1216,7 +1216,7 @@ h6 {
   font-style: normal;
   color: inherit;
   text-rendering: optimizeLegibility;
-  margin-top: 0;
+  margin-top: .5rem;
   margin-bottom: 0.5rem;
   line-height: 1.4; }
   h1 small,
@@ -1456,7 +1456,6 @@ kbd {
 .button {
   display: inline-block;
   text-align: center;
-  line-height: 1;
   cursor: pointer;
   -webkit-appearance: none;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
@@ -2071,7 +2070,7 @@ select {
   .menu > li > a {
     display: block;
     padding: 0.7rem 1rem;
-    line-height: 1; }
+     }
   .menu input,
   .menu a,
   .menu button {
@@ -2140,8 +2139,7 @@ select {
   color: inherit;
   line-height: 1;
   padding-top: 0;
-  padding-bottom: 0;
-  padding: 0.7rem 1rem; }
+  padding-bottom: 0;}
 
 .menu-centered {
   text-align: center; }
