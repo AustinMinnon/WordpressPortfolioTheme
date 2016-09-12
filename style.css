@@ -874,7 +874,7 @@ object {
 	display: inline-block;
 	text-align: center;
 	vertical-align: top;
-	width: 100%;
+	max-width: 100%;
 }
 
 .gallery-columns-2 .gallery-item {
@@ -997,15 +997,14 @@ footer li {
     color: #fff;
 }
 
-.contactForm{
-	margin: 20% 0;
-}
-
 footer {
     background: #2d2d2d;
     padding: 1.0em;
     color: white;
+}
 
+.navigation{
+	background: #2d2d2d;
 }
 
 .entry-title {
@@ -1014,4 +1013,24 @@ footer {
 
 .menu-simple {
 	text-align: center;
+}
+
+.pageHeader{
+	border-bottom: 1px solid black;
+}
+
+.textBody {
+	background-color: #FFF0E0;
+}
+
+#gallery-1 {
+	max-width: 100%;
+}
+
+.menu-links > li > a{
+	color: #fff;
+}
+
+.menu-item a{
+	color: #abcdef;
 }

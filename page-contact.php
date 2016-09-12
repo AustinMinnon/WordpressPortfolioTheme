@@ -11,7 +11,7 @@
     <div class="medium-12 columns contactForm">
         <?php while ( have_posts() ) : the_post(); ?>
 
-            <?php get_template_part( 'template-parts/content', 'page' ); ?>
+            <?php get_template_part( 'template-parts/content', 'page-noheader' ); ?>
 
         <?php endwhile; ?>
     </div>

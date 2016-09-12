@@ -1,19 +1,23 @@
 <?php
 /* *
-* Template Name: Skills
+* Template Name: Experience
 */ ?>
 
 <?php get_header(); ?>
 
 <div class="callout">
             <div class="row column text-center">
-                <h1>Programming Background</h1>
+                <h1 class="pageHeader">Experience</h1>
             </div>
         </div>
 
         <div class="row" id="content">
             <div class="medium-12 columns">
-                <p>skills here</p>
+                <?php while ( have_posts() ) : the_post(); ?>
+
+                    <?php get_template_part( 'template-parts/content', 'page' ); ?>
+
+                <?php endwhile; ?>
             </div>
         </div>
 

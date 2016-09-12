@@ -25,7 +25,7 @@
 		<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'portfolio' ); ?></a>
 
 		<header>
-	        <div class="row">
+	        <div class="row navigation">
 	          <div class="large-12 columns">
 	              <div class="top-bar">
 	                  <div class="top-bar-left">
@@ -34,6 +34,7 @@
 								  <?php echo esc_url( home_url() ); ?>">
 								  <?php echo get_bloginfo( 'name'); ?></a>
 							  </li>
+
 	                      </ul>
 	                  </div>
     				 <div class="top-bar-right">
@@ -44,6 +45,15 @@
 			  			</ul>
                   	</div>
 	              </div>
+				  <!-- <div class="top-bar">
+					  <ul class="menu">
+						  <li><a title="E-Mail" class="footer-icons" href="mailto:austinjminnon@gmail.com"><i class="fi-mail"></i></a>
+  						</li>
+  						<li><a title="GitHub"class="footer-icons" href="https://github.com/AustinMinnon"><i class="fi-social-github"></i></a>
+  						</li>
+  						<li><a title="LinkedIn" class="footer-icons" href="https://linkedin.com/in/AustinMinnon"><i class="fi-social-linkedin"></i></a></li>
+					  </ul>
+				  </div> -->
 	          </div>
 	        </div>
 		</header>
@@ -54,12 +64,9 @@
 			</ul>
 		</form> -->
 	    <section id="feature">
-	        <div class="row">
-	            <div class="large-12 columns">
-					<img src="<?php header_image(); ?>" >
-	            </div>
-
-	        </div>
+			<img class="headerImage" src="<?php header_image(); ?>" >
 	    </section>
+		
+		</div>
 
 	<div id="content" class="site-content">
