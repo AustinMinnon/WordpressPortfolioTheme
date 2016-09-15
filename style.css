@@ -46,14 +46,64 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
+@media only screen and (min-width: 350px) {
+	.textBody {
+		padding: 0 2%;
+	}
+}
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 375px) {
+	.top-bar {
+		font-size: 85%;
+	}
+}
+@media only screen and (max-width: 300px) {
+	.top-bar {
+		font-size: 50%;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.top-bar {
+		font-size: 75%;
+	}
+}
+
+
+@media only screen and (min-width: 800px) {
+	.top-bar {
+		font-size: 130%;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.top-bar {
+		font-size: 140%;
+		margin: 0 .75%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.top-bar {
+		font-size: 150%;
+	}
+	.textBody,
+	.entry-content {
+		padding: 0 10%;
+	}
+
+	.contactForm{
+		padding: 0 10%;
+	}
+}
+
+@media only screen and (max-width: 660px) {
 	.sticky {
 		display: none;
 	}
 }
 
-@media only screen and (max-width: 1024){
+@media only screen and (min-width: 661){
 	.sticky {
 		display: block;
 	}
@@ -302,6 +352,7 @@ h6 {
 
 p {
 	margin-bottom: 1.5em;
+	margin-top: 1.5em;
 }
 
 dfn,
@@ -393,6 +444,7 @@ hr {
 	background-color: #ccc;
 	border: 0;
 	height: 1px;
+	width: 100%;
 	margin-bottom: 1.5em;
 }
 
@@ -528,9 +580,6 @@ textarea {
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
-a {
-	color: royalblue;
-}
 
 a:visited {
 	color: purple;
@@ -540,6 +589,11 @@ a:hover,
 a:focus,
 a:active {
 	color: midnightblue;
+}
+
+.menu-item a:hover{
+	color: #ffffff;
+	border-bottom: 2px solid #abcdef;
 }
 
 a:focus {
@@ -922,7 +976,7 @@ body {
     color: #534c4c;
 }
 
-a {
+li a {
     color: #534c4c;
 }
 
@@ -949,10 +1003,39 @@ li {
     list-style: none;
 }
 
-i {
-    margin-right: 1em;
-    font-size: 2em;
+/*.footer-icons,
+.footer-icons:visited {
+	color: #ffffff;
 }
+
+.footer-icons{
+	margin-left: 35%;
+}
+
+a:visited {
+	color: #534c4c;
+}*/
+
+.header-icons{
+	font-size: 1.6em;
+}
+.menu > li > .header-icons {
+	margin: 0 1rem;
+}
+
+.header-icons:hover {
+    color: #abcdef;
+}
+
+.menu-text a:hover {
+    color: #abcdef;
+}
+
+.menu-text a{
+	font-size: 1.2em;
+	line-height: 1.6em;
+}
+
 
 p {
     font-size: 1.2em;
@@ -1019,10 +1102,6 @@ footer {
 	border-bottom: 1px solid black;
 }
 
-.textBody {
-	background-color: #FFF0E0;
-}
-
 #gallery-1 {
 	max-width: 100%;
 }
@@ -1033,4 +1112,40 @@ footer {
 
 .menu-item a{
 	color: #abcdef;
+	border-bottom: 2px solid #2d2d2d;
 }
+
+.fi{
+	margin-right: 1em;
+	font-size: 2em;
+}
+
+.info {
+	color: #abcdef;
+}
+
+.headerImage {
+	opacity: .7;
+}
+
+.widget-area {
+	padding-top: 2.5rem;
+}
+
+.navigation-links {
+	overflow-x: none;
+}
+
+/*.hero-text-box {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}*/
+
+/*.headCover {
+text-align: center;
+opacity: 1
+}*/

@@ -429,7 +429,6 @@ button {
   display: none !important; }
 
 .row {
-  max-width: 75rem;
   margin-left: auto;
   margin-right: auto; }
   .row::before, .row::after {
@@ -1271,7 +1270,6 @@ a {
     border: 0; }
 
 hr {
-  max-width: 75rem;
   height: 0;
   border-right: 0;
   border-top: 0;
@@ -2069,7 +2067,7 @@ select {
       outline: 0; }
   .menu > li > a {
     display: block;
-    padding: 0.7rem 1rem;
+    margin: 0.5rem 1rem;
      }
   .menu input,
   .menu a,
@@ -2086,7 +2084,7 @@ select {
   .menu > li > a img,
   .menu > li > a i,
   .menu > li > a svg {
-    margin-right: 0.25rem;
+
     display: inline-block; }
   .menu > li {
     display: table-cell; }
@@ -3391,8 +3389,9 @@ table.hover tr:nth-of-type(even):hover {
         -ms-transform: translateY(-50%);
             transform: translateY(-50%); }
 
-.top-bar {
-  padding: 0.5rem; }
+  .top-bar{
+      padding: .2rem 0;
+  }
   .top-bar::before, .top-bar::after {
     content: ' ';
     display: table; }
